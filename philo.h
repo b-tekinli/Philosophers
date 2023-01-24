@@ -20,6 +20,7 @@
 # include <sys/time.h>
 
 typedef struct s_table	t_table;
+
 typedef struct s_philo
 {
 	int					philo_id;
