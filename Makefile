@@ -1,6 +1,6 @@
 NAME = philo
 CC = gcc -g
-CFLAGS = -Wall -Wextra -Werror -pthread
+CFLAGS = -Wall -Wextra -Werror -pthread // data race için --> -fsanitize=thread
 RM = rm -rf
 
 SRC = main.c philos_edit.c cycle.c death_check.c tools.c
