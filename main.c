@@ -68,7 +68,7 @@ int	main(int argc, char **argv)
 	now_time();
 	if (check_arg(argc, argv, &table) == 0)
 	{
-		error_message("Hatalı argüman girdiniz.\n");
+		error_message("Wrong argument.\n");
 		return (0);
 	}
 	mutex_init(&table);
