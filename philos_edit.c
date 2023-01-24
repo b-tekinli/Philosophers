@@ -56,7 +56,7 @@ int	create_thread(t_table *table)
 		if ((pthread_create(&table->philos[i].philo, NULL, \
 			&lifecycle, (void *)&table->philos[i])) != 0)
 		{
-			printf("Beklenmeyen bir hata oluştu\n");
+			printf("An unexpected error has occurred.\n");
 			return (0);
 		}
 	}
